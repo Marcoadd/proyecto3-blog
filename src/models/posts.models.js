@@ -15,7 +15,7 @@ const Posts = db.define('posts', {
   userName: {
     type: DataTypes.STRING,
     allowNull: false,  //? not null
-    defaultValue: 'Desconocido',
+    
   },
   isPublished: {
     type: DataTypes.BOOLEAN,
